@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+*.sublime-*
+
+# ignore code generated from coffeescript
+lib/game/*.js
+lib/game/entities/*.js
+
+# Don't include impact library in repo (requires license)
+lib/impact/
+lib/weltmeister/
+tools/
+weltmeister.html
+
